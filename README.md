@@ -10,15 +10,19 @@ Search for printer pages with default password in specific ip range
 - Prints user the result.
 
 ## Usage
-TODO
-
+```
+go build
+./Printer-Scanner -start={IP Address} -end={IP Address}
+```
 
 ## Tech stack
- - Golang
+ - Golang 1.18
 
 ## List of currently supported printers
 TODO
 
 ## TODO
+ - [ ] Actual HTTP communication logic
+ - [ ] Exclude some address with wildcard
  - [ ] Unit test
  - [ ] Integration test
